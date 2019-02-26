@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<h2><a id="top" href="#1">Escalations</a> | 
-	<a href="#2">Ticket Update</a> | 
-	<a href="#3">Site Down</a> | 
-	<a href="#4">Tag and Locate</a> | 
-	<a href="#5">RFO Request</a> | 
-	<a href="#6">Dark Fiber Issue</a> | 
-	<a href="#7">Turn Up</a> | 
-	<a href="#8">Slow / Degraded Circuit</a></h2>
-</head>
-<body>
+	<body>
+	    <h2><a id="top" href="#1">Escalations</a> | 
+    	<a href="#2">Ticket Update</a> | 
+    	<a href="#3">Site Down</a> | 
+    	<a href="#4">Tag and Locate</a> | 
+    	<a href="#5">RFO Request</a> | 
+   		<a href="#6">Dark Fiber Issue</a> | 
+    	<a href="#7">Turn Up</a> | 
+    	<a href="#8">Slow / Degraded Circuit</a></h2><br>
+<h1 color="red">**NOTE** This page works best in Chrome.</h1><h4>--Any comments or bugs can be sent to <a href="mailto:andrew.gilpin@charter.com">andrew.gilpin@charter.com</a></h4>
+
 
 <br>
 <br>
-<button><a HREF="javascript:history.go(0)">Clear</a></button>
+<button id="0"><a HREF="javascript:history.go(0)">Clear</a></button>
 <br>
-<h1 id="0">Ticket note.</h1>
+<h1>Ticket note.</h1>
 <output name="escalation"> </output>
 <output name="update"> </output>
 <output name="down"> </output>
@@ -32,289 +32,294 @@
 <br>
 <fieldset>
 <legend id="1">Escalations:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	<label for="desc">Brief Description of the issue:</label> <br>
- 	<textarea name="desc" id="desc" rows="10" columns="80"></textarea> <br />
-	<label for="last">Last escalation time:</label>
- 	<input type="text" id="last" name="last"> <br />
-	<label for="reason">Escalation reason:</label>
- 	<input type="text" id="reason" name="reason"> <br />
-	<label for="current">Current escalation level:</label>
- 	<input type="text" id="current" name="current"> <br />
-	<label for="who">Who is the current point of escalation:</label>
- 	<input type="text" id="who" name="who"> <br />
-	<button><a id="formEscalate" href="#0">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
+    <label for="name">Caller Name:</label>
+    <input type="text" id="name" name="name"> <br />
+    <label for="company">Company:</label>
+    <input type="text" id="company" name="company"> <br />  
+    <label for="number">Contact Number:</label>
+    <input type="text" id="number" name="number"> <br />
+    <label for="custTkt">Customer Ticket:</label>
+    <input type="text" id="custTkt" name="custTkt"> <br />
+    <label for="desc">Brief Description of the issue:</label> <br>
+    <textarea name="desc" id="desc" rows="10" columns="80"></textarea> <br />
+    <label for="last">Last escalation time:</label>
+    <input type="text" id="last" name="last"> <br />
+    <label for="reason">Escalation reason:</label>
+    <input type="text" id="reason" name="reason"> <br />
+    <label for="current">Current escalation level:</label>
+    <input type="text" id="current" name="current"> <br />
+    <label for="who">Who is the current point of escalation:</label>
+    <input type="text" id="who" name="who"> <br />
+    <button><a id="formEscalate" href="#0">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button>
 </fieldset>
 <br>
 <br>
 <br>
 <fieldset>
 <legend id="2">Ticket Updates:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	<label for="ass">Ticket assigned to:</label>
- 	<input type="text" id="ass" name="ass"> <br />
-	<label for="contact">Have you made positive contact with the assigned tech?</label>
- 	<input type="text" id="contact" name="contact"> <br />
-	<label for="desc">Customer update:</label> <br>
- 	<textarea name="desc" id="desc" rows="10" columns="80"></textarea> <br />
-	<button id="formUpdate"><a href="#0">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
+    <label for="name1">Caller Name:</label>
+    <input type="text" id="name1" name="name1"> <br />
+    <label for="company1">Company:</label>
+    <input type="text" id="company1" name="company1"> <br />  
+    <label for="number1">Contact Number:</label>
+    <input type="text" id="number1" name="number1"> <br />
+    <label for="custTkt1">Customer Ticket:</label>
+    <input type="text" id="custTkt1" name="custTkt1"> <br />
+    <label for="ass1">Ticket assigned to:</label>
+    <input type="text" id="ass1" name="ass1"> <br />
+    <label for="contact">Have you made positive contact with the assigned tech?</label>
+    <input type="text" id="contact1" name="contact1"> <br />
+    <label for="desc1">Customer update:</label> <br>
+    <textarea name="desc1" id="desc1" rows="10" columns="80"></textarea> <br />
+    <button id="formUpdate"><a href="#0">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> 
 </fieldset>
 <br>
 <br>
 <br>
 <fieldset>
 <legend id="3">Site Down:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	<label for="timeDown">What time did this drop?</label>
- 	<input type="text" id="timeDown" name="timeDown"> <br />
-	<label for="power">Has power been verified?</label>
- 	<input type="text" id="power" name="power"> <br />
-	<label for="site">Single or Multiple Sites?</label>
- 	<input type="text" id="site" name="site"> <br />
-	<label for="cid">Circuit ID:</label>
- 	<input type="text" id="cid" name="cid"> <br />	
-	<label for="vlan">Customer vlan:</label>
- 	<input type="text" id="vlan" name="vlan"> <br />
-	<label for="edge">Can you reach the edge?</label>
- 	<input type="text" id="edge" name="edge"> <br />
-	<label for="eip">Edge IP?</label>
- 	<input type="text" id="eip" name="eip"> <br />
-	<label for="lpoc">LPOC?</label>
- 	<input type="text" id="lpoc" name="lpoc"> <br />
-	<label for="lpocn">LPOC Number?</label>
- 	<input type="text" id="lpocn" name="lpocn"> <br />
-	<label for="access">Access information?</label>
- 	<input type="text" id="access" name="access"> <br />
-	<label for="granite">Granite link?</label>
- 	<input type="text" id="granite" name="granite"> <br />
-	<label for="visio">Visio link?</label>
- 	<input type="text" id="visio" name="visio"> <br />
-	<label for="techSum">Technical summary:</label> <br>
- 	<textarea name="techSum" id="techSum" rows="10" columns="80"></textarea> <br />
-	<button id="formDown"><a href="#top">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
+    <label for="name2">Caller Name:</label>
+    <input type="text" id="name2" name="name2"> <br />
+    <label for="company2">Company:</label>
+    <input type="text" id="company2" name="company2"> <br />  
+    <label for="number2">Contact Number:</label>
+    <input type="text" id="number2" name="number2"> <br />
+    <label for="custTkt2">Customer Ticket:</label>
+    <input type="text" id="custTkt2" name="custTkt2"> <br />
+    <label for="timeDown2">What time did this drop?</label>
+    <input type="text" id="timeDown2" name="timeDown2"> <br />
+    <label for="power2">Has power been verified?</label>
+    <input type="text" id="power2" name="power2"> <br />
+    <label for="site2">Single or Multiple Sites?</label>
+    <input type="text" id="site2" name="site3"> <br />
+    <label for="cid2">Circuit ID:</label>
+    <input type="text" id="cid2" name="cid4"> <br />  
+    <label for="vlan2">Customer vlan:</label>
+    <input type="text" id="vlan2" name="vlan2"> <br />
+    <label for="edge2">Can you reach the edge?</label>
+    <input type="text" id="edge2" name="edge2"> <br />
+    <label for="eip2">Edge IP?</label>
+    <input type="text" id="eip2" name="eip2"> <br />
+    <label for="lpoc2">LPOC?</label>
+    <input type="text" id="lpoc2" name="lpoc2"> <br />
+    <label for="lpocn2">LPOC Number?</label>
+    <input type="text" id="lpocn2" name="lpocn2"> <br />
+    <label for="access2">Access information?</label>
+    <input type="text" id="access2" name="access2"> <br />
+    <label for="granite2">Granite link?</label>
+    <input type="text" id="granite2" name="granite2"> <br />
+    <label for="visio2">Visio link?</label>
+    <input type="text" id="visio2" name="visio2"> <br />
+    <label for="techSum2">Technical summary:</label> <br>
+    <textarea name="techSum2" id="techSum2" rows="10" columns="80"></textarea> <br />
+    <button id="formDown"><a href="#top">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> 
 </fieldset>
 <br>
 <br>
 <br>
 <fieldset>
 <legend id="4">Tag and Locate:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	<label for="lpoc">LPOC?</label>
- 	<input type="text" id="lpoc" name="lpoc"> <br />
-	<label for="lpocn">LPOC Number?</label>
- 	<input type="text" id="lpocn" name="lpocn"> <br />
-	<label for="access">Access information?</label>
- 	<input type="text" id="access" name="access"> <br />
-	<label for="scid">Charter Circuit ID:</label>
-	<input type="text" id="scid" name="scid"> <br />
-	<label for="granite">Granite link?</label>
- 	<input type="text" id="granite" name="granite"> <br />
-	<label for="sales">SalesForce link?</label>
- 	<input type="text" id="sales" name="sales"> <br />
-	<label for="techSum">Technical summary:</label> <br>
- 	<textarea name="techSum" id="techSum" rows="10" columns="80"></textarea> <br />
-	<button id="formTag"><a href="#0">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
+    <label for="name3">Caller Name:</label>
+    <input type="text" id="name3" name="name3"> <br />
+    <label for="company3">Company:</label>
+    <input type="text" id="company3" name="company3"> <br />  
+    <label for="number3">Contact Number:</label>
+    <input type="text" id="number3" name="number3"> <br />
+    <label for="custTkt3">Customer Ticket:</label>
+    <input type="text" id="custTkt3" name="custTkt3"> <br />
+    <label for="lpoc3">LPOC?</label>
+    <input type="text" id="lpoc3" name="lpoc3"> <br />
+    <label for="lpocn3">LPOC Number?</label>
+    <input type="text" id="lpocn3" name="lpocn3"> <br />
+    <label for="access3">Access information?</label>
+    <input type="text" id="access3" name="access3"> <br />
+    <label for="scid3">Spectrum Circuit ID:</label>
+    <input type="text" id="scid3" name="scid3"> <br />
+    <label for="granite3">Granite link?</label>
+    <input type="text" id="granite3" name="granite3"> <br />
+    <label for="sales3">SalesForce link?</label>
+    <input type="text" id="sales3" name="sales3"> <br />
+    <label for="techSum3">Technical summary:</label> <br>
+    <textarea name="techSum3" id="techSum3" rows="10" columns="80"></textarea> <br />
+    <button id="formTag"><a href="#0">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> 
 </fieldset>
 <br>
 <br>
 <br>
 <fieldset>
 <legend id="5">RFO Request:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	<label for="scid">Charter Circuit ID:</label>
-	<input type="text" id="scid" name="scid"> <br />
-	<label for="avlan">Affected vlan(s):</label>
-	<input type="text" id="avlan" name="avlan"> <br />
-	<label for="timeDown">What time did this drop?</label>
- 	<input type="text" id="timeDown" name="timeDown"> <br />
-	<label for="timeUp">What time did this restore?</label>
- 	<input type="text" id="timeUp" name="timeUp"> <br />
-	<label for="site">Single or Multiple Sites?</label>
- 	<input type="text" id="site" name="site"> <br />
-	<label for="many">How Many Sites?</label>
- 	<input type="text" id="many" name="many"> <br />
-	<label for="shits">Do the switch logs show any hits?</label>
- 	<input type="text" id="shits" name="shits"> <br />
-	<label for="slogs">Paste logs here:</label> <br>
- 	<textarea name="slogs" id="slogs" rows="10" columns="80"></textarea> <br />
-	<label for="uhits">Does the upstream show any hits?</label>
- 	<input type="text" id="uhits" name="uhits"> <br />
-	<label for="ulogs">Paste logs here:</label> <br>
- 	<textarea name="ulogs" id="ulogs" rows="10" columns="80"></textarea> <br />
-	<button id="formRfo"><a href="#top">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
+    <label for="name4">Caller Name:</label>
+    <input type="text" id="name4" name="name4"> <br />
+    <label for="company4">Company:</label>
+    <input type="text" id="company4" name="company4"> <br />  
+    <label for="number4">Contact Number:</label>
+    <input type="text" id="number4" name="number4"> <br />
+	<label for="email4">Contact Email:</label>
+    <input type="text" id="email4" name="email4"> <br />
+    <label for="custTkt4">Customer Ticket:</label>
+    <input type="text" id="custTkt4" name="custTkt4"> <br />
+    <label for="scid4">Spectrum Circuit ID:</label>
+    <input type="text" id="scid4" name="scid4"> <br />
+    <label for="avlan4">Affected vlan(s):</label>
+    <input type="text" id="avlan4" name="avlan4"> <br />
+    <label for="timeDown4">What time did this drop?</label>
+    <input type="text" id="timeDown4" name="timeDown4"> <br />
+    <label for="timeUp4">What time did this restore?</label>
+    <input type="text" id="timeUp4" name="timeUp4"> <br />
+    <label for="site4">Single or Multiple Sites?</label>
+    <input type="text" id="site4" name="site4"> <br />
+    <label for="many4">How Many Sites?</label>
+    <input type="text" id="many4" name="many4"> <br />
+    <label for="shits4">Do the switch logs show any hits?</label>
+    <input type="text" id="shits4" name="shits4"> <br />
+    <label for="slogs4">Paste logs here:</label> <br>
+    <textarea name="slogs4" id="slogs4" rows="10" columns="80"></textarea> <br />
+    <label for="uhits4">Does the upstream show any hits?</label>
+    <input type="text" id="uhits4" name="uhits4"> <br />
+    <label for="ulogs4">Paste logs here:</label> <br>
+    <textarea name="ulogs4" id="ulogs4" rows="10" columns="80"></textarea> <br />
+    <button id="formRfo"><a href="#top">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> 
 </fieldset>
 <br>
 <br>
 <br>
 <fieldset>
 <legend id="6">Dark Fiber:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	<label for="ass">Ticket assigned to:</label>
- 	<input type="text" id="ass" name="ass"> <br />
-	<label for="contact">Have you made positive contact with the assigned tech?</label>
- 	<input type="text" id="contact" name="contact"> <br />
-	<label for="desc">Customer update:</label> <br>
- 	<textarea name="desc" id="desc" rows="10" columns="80"></textarea> <br />
-	<button id="formDark"><a href="#0">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
+    <label for="name5">Caller Name:</label>
+    <input type="text" id="name5" name="name5"> <br />
+    <label for="company5">Company:</label>
+    <input type="text" id="company5" name="company5"> <br />  
+    <label for="number5">Contact Number:</label>
+    <input type="text" id="number5" name="number5"> <br />
+    <label for="custTkt5">Customer Ticket:</label>
+    <input type="text" id="custTkt5" name="custTkt5"> <br />
+    <label for="aside5">A side address:</label>
+    <input type="text" id="aside5" name="aside5"> <br />
+    <label for="zside5">Z side address:</label>
+    <input type="text" id="zside5" name="zside5"> <br />
+ <label for="wave">Wavelength (DukeNet only):</label>
+    <input type="text" id="wave" name="wave"> <br />
+    <label for="desc5">Issue Description:</label> <br>
+    <textarea name="desc5" id="desc5" rows="10" columns="80"></textarea> <br />
+ <label for="otdr">OTDR Results:</label> <br>
+    <textarea name="otdr" id="otdr" rows="10" columns="80"></textarea> <br />
+    <button id="formDark"><a href="#0">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> 
 </fieldset>
 <br>
 <br>
 <br>
 <fieldset>
 <legend id="7">Turn Up:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	<label for="ass">Ticket assigned to:</label>
- 	<input type="text" id="ass" name="ass"> <br />
-	<label for="contact">Have you made positive contact with the assigned tech?</label>
- 	<input type="text" id="contact" name="contact"> <br />
-	<label for="desc">Customer update:</label> <br>
- 	<textarea name="desc" id="desc" rows="10" columns="80"></textarea> <br />
-	<button id="formTurnup"><a href="#0">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
-</fieldset>
+    <label for="name6">Caller Name:</label>
+    <input type="text" id="name6" name="name6"> <br />
+    <label for="company6">Company:</label>
+    <input type="text" id="company6" name="company6"> <br />  
+    <label for="number6">Contact Number:</label>
+    <input type="text" id="number6" name="number6"> <br />
+    <label for="custTkt6">Customer Ticket:</label>
+    <input type="text" id="custTkt6" name="custTkt6"> <br />
+    <label for="cid6">Circuit ID:</label>
+    <input type="text" id="cid6" name="cid6"> <br />
+    <label for="edge6">Device IP</label>
+    <input type="text" id="edge6" name="edge6"> <br />
+    <label for="desc6">Technical Summary:</label> <br>
+    <textarea name="desc6" id="desc6" rows="10" columns="80"></textarea> <br />
+    <button id="formTurnup"><a href="#0">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> </fieldset>
 <br>
 <br>
 <br>
 <fieldset>
 <legend id="8">Slow / Degraded Circuit:</legend>
-	<label for="name">Caller Name:</label>
-	<input type="text" id="name" name="name"> <br />
-	<label for="company">Company:</label>
- 	<input type="text" id="company" name="company"> <br />  
-	<label for="number">Contact Number:</label>
-	<input type="text" id="number" name="number"> <br />
-	<label for="custTkt">Customer Ticket:</label>
- 	<input type="text" id="custTkt" name="custTkt"> <br />
-	 <label for="desc">Brief Description of the issue?</label> <br>
- 	<textarea name="desc" id="desc" rows="10" columns="80"></textarea> <br />
-	<label for="time">What time did this start? Include Time zone</label>
-	<input type="text" id="time" name="time"> <br />
-	<label for="scid">Charter Circuit ID:</label>
-	<input type="text" id="scid" name="scid"> <br />
-	<label for="loss">How much Latency or Loss?</label>
-	<input type="text" id="loss" name="loss"> <br />
-	<label for="how">How did the customer test this?</label>
-	<input type="text" id="how" name="how"> <br />
-	<label for="results">Results of testing?</label>
-	<input type="text" id="results" name="results"> <br />
-	<label for="attached">Are results attached to the ticket?</label>
-	<input type="text" id="attached" name="attached"> <br />
-	<label for="ipa">Ip of edge Switch A: Side</label>
-	<input type="text" id="ipa" name="ipa"> <br />
-	<label for="adda">Address of A side </label>
-	<input type="text" id="adda" name="adda"> <br />
-	<label for="reacha">Can you access the edge switch</label>
-	<input type="text" id="reacha" name="reacha"> <br />
-	<label for="ahand">Handoff port up/up?</label>
-	<input type="text" id="ahand" name="ahand"> <br />
-	<label for="errsa">Are there any errors on any of the interfaces?</label>
-	<input type="text" id="errsa" name="errsa"> <br />
-	<label for="addz">Address of Z side</label>
-	<input type="text" id="addz" name="addz"> <br />
-	<label for="ipz">Ip of edge Switch Z: Side</label>
-	<input type="text" id="ipz" name="ipz"> <br />
-	<label for="reachz">Can you access the edge switch</label>
-	<input type="text" id="reachz" name="reachz"> <br />
-	<label for="zhand">Handoff port up/up?</label>
-	<input type="text" id="zhand" name="zhand"> <br />
-	<label for="zerr">Are there any errors on any of the interfaces?</label>
-	<input type="text" id="zerr" name="zerr"> <br />
-	<label for="over">Sevone / CA performance show overutilization?</label>
-	<input type="text" id="over" name="over"> <br />
-	<label for="util">What is the Current Utilization shown?</label>
-	<input type="text" id="util" name="util"> <br />
-	<label for="mile">Is there a Last Mile Carrier ?</label>
-	<input type="text" id="mile" name="mile"> <br />
-	<label for="lmcid">Last Mile Carrier Circuit ID / Contact #</label>
-	<input type="text" id="lmcid" name="lmcid"> <br /> 
-	<button id="formSlow"><a href="#0">Display Template</a></button>
-	<button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
-	<button><a href="#top">^Back to top^</a></button><span>-----Until I can get the bugs worked out, please use the back to top button after the display button.</span>
+    <label for="name7">Caller Name:</label>
+    <input type="text" id="name7" name="name7"> <br />
+    <label for="company7">Company:</label>
+    <input type="text" id="company7" name="company7"> <br />  
+    <label for="number7">Contact Number:</label>
+    <input type="text" id="number7" name="number7"> <br />
+    <label for="custTkt7">Customer Ticket:</label>
+    <input type="text" id="custTkt7" name="custTkt7"> <br />
+     <label for="desc7">Brief Description of the issue?</label> <br>
+    <textarea name="desc7" id="desc7" rows="10" columns="80"></textarea> <br />
+    <label for="times7">What time did this start? Include Time zone</label>
+    <input type="text" id="times7" name="times7"> <br />
+    <label for="cid7">Spectrum Circuit ID:</label>
+    <input type="text" id="cid7" name="cid7"> <br />
+    <label for="loss7">How much Latency or Loss?</label>
+    <input type="text" id="loss7" name="loss7"> <br />
+    <label for="how7">How did the customer test this?</label>
+    <input type="text" id="how7" name="how7"> <br />
+    <label for="results7">Results of testing?</label>
+    <input type="text" id="results7" name="results7"> <br />
+    <label for="attached7">Are results attached to the ticket?</label>
+    <input type="text" id="attached7" name="attached7"> <br />
+    <label for="ipa7">Ip of edge Switch A: Side</label>
+    <input type="text" id="ipa7" name="ipa7"> <br />
+    <label for="adda7">Address of A side </label>
+    <input type="text" id="adda7" name="adda7"> <br />
+    <label for="reacha7">Can you access the edge switch</label>
+    <input type="text" id="reacha7" name="reacha7"> <br />
+    <label for="ahand7">Handoff port up/up?</label>
+    <input type="text" id="ahand7" name="ahand7"> <br />
+    <label for="errsa7">Are there any errors on any of the interfaces?</label>
+    <input type="text" id="errsa7" name="errsa7"> <br />
+    <label for="addz7">Address of Z side</label>
+    <input type="text" id="addz7" name="addz7"> <br />
+    <label for="ipz7">Ip of edge Switch Z: Side</label>
+    <input type="text" id="ipz7" name="ipz7"> <br />
+    <label for="reachz7">Can you access the edge switch</label>
+    <input type="text" id="reachz7" name="reachz7"> <br />
+    <label for="zhand7">Handoff port up/up?</label>
+    <input type="text" id="zhand7" name="zhand7"> <br />
+    <label for="zerr7">Are there any errors on any of the interfaces?</label>
+    <input type="text" id="zerr7" name="zerr7"> <br />
+    <label for="over7">Sevone / CA performance show overutilization?</label>
+    <input type="text" id="over7" name="over7"> <br />
+    <label for="util7">What is the Current Utilization shown?</label>
+    <input type="text" id="util7" name="util7"> <br />
+    <label for="mile7">Is there a Last Mile Carrier ?</label>
+    <input type="text" id="mile7" name="mile7"> <br />
+    <label for="lmcid7">Last Mile Carrier Circuit ID / Contact #</label>
+    <input type="text" id="lmcid7" name="lmcid7"> <br /> 
+    <button id="formSlow"><a href="#0">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> 
 </fieldset>
 
 <script>             
-	document.getElementById("formEscalate").onclick = escalation;
-	document.getElementById("formUpdate").onclick = update;
-	document.getElementById("formDown").onclick = down;
-	document.getElementById("formTag").onclick = tag;
-	document.getElementById("formRfo").onclick = rfo;
-	document.getElementById("formDark").onclick = dark;
-	document.getElementById("formTurnup").onclick = turnup;
-	document.getElementById("formSlow").onclick = slow;
-		function escalation(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	var desc= document.getElementById("desc").value;     
-	var last = document.getElementById("last").value;                 
-	var reason = document.getElementById("reason").value;     
-	var current = document.getElementById("current").value;
-	var who = document.getElementById("who").value;
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>" +
+    document.getElementById("formEscalate").onclick = escalation;
+    document.getElementById("formUpdate").onclick = update;
+    document.getElementById("formDown").onclick = down;
+    document.getElementById("formTag").onclick = tag;
+    document.getElementById("formRfo").onclick = rfo;
+    document.getElementById("formDark").onclick = dark;
+    document.getElementById("formTurnup").onclick = turnup;
+    document.getElementById("formSlow").onclick = slow;
+        function escalation(event) {
+                     event.preventDefault();    
+    var name= document.getElementById("name").value;    
+    var company= document.getElementById("company").value;                 
+    var number= document.getElementById("number").value;     
+    var custTkt= document.getElementById("custTkt").value;     
+    var desc= document.getElementById("desc").value;     
+    var last = document.getElementById("last").value;                 
+    var reason = document.getElementById("reason").value;     
+    var current = document.getElementById("current").value;
+    var who = document.getElementById("who").value;
+    document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>" +
 "Company: " + company + "<br>" +
 "Contact Number: " + number + "<br>" +
 "Customer Ticket Number: " + custTkt + "<br>" +
@@ -323,145 +328,136 @@
 "Escalation reason: " + reason + "<br>" +
 "What Escalation level are we currently at after this Escalation? " + current + "<br>" +
 "Who is the current point of escalation? " + who + "<br>"
-			};
-			function update(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	var ass= document.getElementById("ass").value;     
-	var contact = document.getElementById("contact").value;                 
-	var desc = document.getElementById("desc").value;
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>"  + "Company: " + company + "<br>" + "Contact Number: " + number + "<br>" + 
-"Customer Ticket: " + custTkt + "<br>" + "Assigned tech: " + ass + "<br>" + "Have you made positive contact with the associated tech? " + contact + "<br>" + 
+            };
+            function update(event) {
+                     event.preventDefault();    
+    var name1= document.getElementById("name1").value;    
+    var company1= document.getElementById("company1").value;                 
+    var number1= document.getElementById("number1").value;     
+    var custTkt1= document.getElementById("custTkt1").value;     
+    var ass= document.getElementById("ass1").value;     
+    var contact = document.getElementById("contact1").value;                 
+    var desc = document.getElementById("desc1").value;
+    document.querySelector("output").innerHTML = "Caller Name: " + name1 + "<br>"  + "Company: " + company1 + "<br>" + "Contact Number: " + number1 + "<br>" + 
+"Customer Ticket: " + custTkt1 + "<br>" + "Assigned tech: " + ass + "<br>" + "Have you made positive contact with the associated tech? " + contact + "<br>" + 
 "Customer Update: " + desc + "<br>"
-	};
-	function down(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	var time= document.getElementById("timeDown").value;     
-	var power = document.getElementById("power").value;                 
-	var site = document.getElementById("site").value;     
-	var cid = document.getElementById("cid").value;
-	var vlan = document.getElementById("vlan").value;
-	var edge = document.getElementById("edge").value;
-	var eip = document.getElementById("eip").value;
-	var lpoc = document.getElementById("lpoc").value;
-	var lpocn = document.getElementById("lpocn").value;
-	var access = document.getElementById("access").value;
-	var granite = document.getElementById("granite").value;
-	var visio = document.getElementById("visio").value;
-	var techSum = document.getElementById("techSum").value;
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>"  + "Company: " + company + "<br>" + "Contact Number: " + number + "<br>" + 
-"Customer Ticket: " + custTkt + "<br>" + "What time did this drop? " + timeDown + "<br>" + 
+    };
+    function down(event) {
+                     event.preventDefault();    
+    var name2= document.getElementById("name2").value;    
+    var company2= document.getElementById("company2").value;                 
+    var number2= document.getElementById("number2").value;     
+    var custTkt2= document.getElementById("custTkt2").value;     
+    var timeDown = document.getElementById("timeDown2").value;     
+    var power = document.getElementById("power2").value;                 
+    var site = document.getElementById("site2").value;     
+    var cid = document.getElementById("cid2").value;
+    var vlan = document.getElementById("vlan2").value;
+    var edge = document.getElementById("edge2").value;
+    var eip = document.getElementById("eip2").value;
+    var lpoc = document.getElementById("lpoc2").value;
+    var lpocn = document.getElementById("lpocn2").value;
+    var access = document.getElementById("access2").value;
+    var granite = document.getElementById("granite2").value;
+    var visio = document.getElementById("visio2").value;
+    var techSum = document.getElementById("techSum2").value;
+    document.querySelector("output").innerHTML = "Caller Name: " + name2 + "<br>"  + "Company: " + company2 + "<br>" + "Contact Number: " + number2 + "<br>" + 
+"Customer Ticket: " + custTkt2 + "<br>" + "What time did this drop? " + timeDown + "<br>" + 
  "Has power been verified? " + power + "<br>" + "Single or Multiple Sites? " + site + "<br>" + "Circuit ID: " +
  cid + "<br>" + "Customer vlan: " + vlan + "<br>" + "Can you reach the edge? " + edge + "<br>" + "Edge IP? " + eip + "<br>" +
  "LPOC? " + lpoc + "<br>" + "LPOC Number? " + lpocn + "<br>" + "Access information? " + access + "<br>" + "Granite link? "
 + granite + "<br>" + "Visio link? " + visio + "<br>" + "Technical summary: " + techSum
-		};
-			function tag(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	var ass= document.getElementById("ass").value;     
-	var contact = document.getElementById("contact").value;                 
-	var desc = document.getElementById("desc").value;
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>"  + "Company: " + company + "<br>" + "Contact Number: " + number + "<br>" + 
-"Customer Ticket: " + custTkt + "<br>" 
+        };
+            function tag(event) {
+                     event.preventDefault();    
+    var name3= document.getElementById("name3").value;    
+    var company3= document.getElementById("company3").value;                 
+    var number3= document.getElementById("number3").value;     
+    var custTkt3= document.getElementById("custTkt3").value;          
+	var lpoc = document.getElementById("lpoc3").value;
+    var lpocn = document.getElementById("lpocn3").value;
+    var access = document.getElementById("access3").value;
+	var scid= document.getElementById("scid3").value;
+    var granite = document.getElementById("granite3").value;
+	var sales = document.getElementById("sales3").value;
+	var techSum = document.getElementById("techSum3").value;
+    document.querySelector("output").innerHTML = "Caller Name: " + name3 + "<br>"  + "Company: " + company3 + "<br>" + "Contact Number: " + number3 +    "<br>" + "Customer Ticket: " + custTkt3 + "<br>" + "LPOC: " + lpoc + "<br>" + "LPOC Number: " + lpocn + "<br>" + "Access Information: " + access + "<br>" + "Spectrum Circuit ID: " + scid + "<br>" + "Granite Link: " + granite + "<br>" + "Salesforce Link: " + sales + "<br>" + "Technical Summary: " + techSum + "<br>"
 };
 function rfo(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>"  + "Company: " + company + "<br>" + "Contact Number: " + number + "<br>" + 
-"Customer Ticket: " + custTkt + "<br>" + "Description: " + desc + "<br>" 
+                     event.preventDefault();    
+    var name4= document.getElementById("name4").value;    
+    var company4= document.getElementById("company4").value;                 
+    var number4= document.getElementById("number4").value; 
+	var email4= document.getElementById("email4").value;    
+    var custTkt4= document.getElementById("custTkt4").value;
+	var scid= document.getElementById("scid4").value;    
+    var avlan= document.getElementById("avlan4").value;                 
+    var timeDown= document.getElementById("timeDown4").value;     
+    var timeUp= document.getElementById("timeUp4").value;
+	var site= document.getElementById("site4").value;    
+    var shits= document.getElementById("shits4").value;                 
+    var slogs= document.getElementById("slogs4").value;     
+    var uhits= document.getElementById("uhits4").value;
+	var ulogs= document.getElementById("ulogs4").value;
+    document.querySelector("output").innerHTML = "Caller Name: " + name4 + "<br>"  + "Company: " + company4 + "<br>" + "Contact Number: " + number4 + "<br>" + "Customer Email: " + email4 + 
+"<br>" + "Customer Ticket: " + custTkt4 + "<br>" + "Spectrum Circuit ID:" + scid + "<br>" + "Affected VLAN(s):" + avlan + "<br>" + "What time did this begin?" + timeDown + "<br>" + "What time did this clear?" + timeUp + "<br>" + "Single or Multiple Sites?" + site + "<br>" + "Do the switch logs show any hits?" + shits + "<br>" + "Switch logs:" + slogs + "<br>" + "Does the upstream show any hits?" + uhits + "<br>" + "Upstream logs:" + ulogs + "<br>"
 };
 function dark(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	var ass= document.getElementById("ass").value;     
-	var contact = document.getElementById("contact").value;                 
-	var desc = document.getElementById("desc").value;
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>"  + "Company: " + company + "<br>" + "Contact Number: " + number + "<br>" + 
-"Customer Ticket: " + custTkt + "<br>" 
+                     event.preventDefault();    
+    var name5= document.getElementById("name5").value;    
+    var company5= document.getElementById("company5").value;                 
+    var number5= document.getElementById("number5").value;     
+    var custTkt5= document.getElementById("custTkt5").value;     
+    var aside5= document.getElementById("aside5").value;
+var zside5= document.getElementById("zside5").value;     
+    var wave = document.getElementById("wave").value;                 
+    var otdr = document.getElementById("otdr").value;                 
+    var desc5 = document.getElementById("desc5").value;
+    document.querySelector("output").innerHTML = "Caller Name: " + name5 + "<br>"  + "Company: " + company5 + "<br>" + "Contact Number: " + number5 + "<br>" + 
+"Customer Ticket: " + custTkt5 + "<br>" + "A side address: " + aside5 + "<br>" + "Z side address: " + zside5 + "<br>" + "DukeNet Wavelength: " + wave + "<br>" + 
+"Issue description: " + desc5 + "<br>" + "OTDR Results: " + otdr + "<br>"  
 };
 function turnup(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	var time= document.getElementById("time").value;     
-	var scid = document.getElementById("scid").value;                 
-	var desc = document.getElementById("desc").value;
-	var loss= document.getElementById("loss").value;    
-	var how= document.getElementById("how").value;                 
-	var results= document.getElementById("results").value;     
-	var attached= document.getElementById("attached").value;     
-	var ipa= document.getElementById("ipa").value;     
-	var adda = document.getElementById("adda").value;                 
-	var reachz = document.getElementById("reacha").value;
-	var ahand= document.getElementById("ahand").value;    
-	var errsa= document.getElementById("errsa").value;                 
-	var addz= document.getElementById("addz").value;     
-	var ipz= document.getElementById("ipz").value;     
-	var reachz= document.getElementById("reachz").value;     
-	var zhand = document.getElementById("zhand").value;                 
-	var zerr = document.getElementById("zerr").value;
-	var over= document.getElementById("over").value;    
-	var util= document.getElementById("util").value;                 
-	var mile= document.getElementById("mile").value;     
-	var lmcid= document.getElementById("lmcid").value;	
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>"  + "Company: " + company + "<br>" + "Contact Number: " + number + "<br>" + 
-"Customer Ticket: " + custTkt + "<br>" 
+                     event.preventDefault();    
+    var name6= document.getElementById("name6").value;    
+    var company6= document.getElementById("company6").value;                 
+    var number6= document.getElementById("number6").value;     
+    var custTkt6= document.getElementById("custTkt6").value;          
+    var cid6 = document.getElementById("cid6").value;                 
+    var desc6 = document.getElementById("desc6").value;
+    var edge6= document.getElementById("edge6").value;    
+    document.querySelector("output").innerHTML = "Caller Name: " + name6 + "<br>"  + "Company: " + company6 + "<br>" + "Contact Number: " + number6 + "<br>" + 
+"Customer Ticket: " + custTkt6 + "<br>" + "Circuit ID: " + cid6 + "<br>" + "Edge device IP: " + edge6 + "<br>" + "Technical Summary: " + desc6 + "<br>"
 };
 function slow(event) {
-	              	 event.preventDefault();    
-	var name= document.getElementById("name").value;    
-	var company= document.getElementById("company").value;                 
-	var number= document.getElementById("number").value;     
-	var custTkt= document.getElementById("custTkt").value;     
-	var time= document.getElementById("time").value;     
-	var scid = document.getElementById("scid").value;                 
-	var desc = document.getElementById("desc").value;
-	var loss= document.getElementById("loss").value;    
-	var how= document.getElementById("how").value;                 
-	var results= document.getElementById("results").value;     
-	var attached= document.getElementById("attached").value;     
-	var ipa= document.getElementById("ipa").value;     
-	var adda = document.getElementById("adda").value;                 
-	var reacha = document.getElementById("reacha").value;
-	var ahand= document.getElementById("ahand").value;    
-	var errsa= document.getElementById("errsa").value;                 
-	var addz= document.getElementById("addz").value;     
-	var ipz= document.getElementById("ipz").value;     
-	var reachz= document.getElementById("reachz").value;     
-	var zhand = document.getElementById("zhand").value;                 
-	var zerr = document.getElementById("zerr").value;
-	var over= document.getElementById("over").value;    
-	var util= document.getElementById("util").value;                 
-	var mile= document.getElementById("mile").value;     
-	var lmcid= document.getElementById("lmcid").value;
-	document.querySelector("output").innerHTML = "Caller Name: " + name + "<br>"  + "Company: " + company + "<br>" + "Contact Number: " + number + "<br>" + 
-"Customer Ticket: " + custTkt + "<br>" + "Brief description: " + desc + "<br>" + "What time did the issue start? " + time + "<br>" + "Charter Circuit ID: " + scid + "<br>" + 
-"Amount of latency / loss: " + loss + "<br>" + "How was this loss tested? " + "<br>" + "Has the customer sent their results? " + results + "<br>" + "Are the results attached to the ticket? " + 
-attached + "<br>" + "A side address: " + adda + "<br>" + "A side IP address: " + ipa + "<br>" + "Can you access the A side edge? " + reacha + "<br>" + "Handoff port up/up? " + ahand + 
-"<br>" + "Are there any errors on the A side? " + errsa + "<br>" + "Z side address: " + addz + "<br>" + "Z side IP address: " + ipz + "<br>" + "Can you access the Z side gear? " + reachz
- + "<br>" + "Handoff port up/up? " + zhand + "<br>" + "Are there any errors on the Z side? " + zerr + "<br>" + "Do Sevone/CAPC show any overutilization? " + over + "<br>" + 
- "What is the current utilization? " + util + "<br>" + "Is there a last mile carrier? " + mile + "<br>" + "Last mile circuit ID (if applicable): " + lmcid
+                     event.preventDefault();    
+    var name7= document.getElementById("name7").value;    
+    var company7= document.getElementById("company7").value;                 
+    var number7= document.getElementById("number7").value;     
+    var desc7 = document.getElementById("desc7").value;
+	var custTkt7= document.getElementById("custTkt7").value;     
+    var times= document.getElementById("times7").value;     
+    var cid = document.getElementById("cid7").value;                 
+    var loss= document.getElementById("loss7").value;    
+    var how= document.getElementById("how7").value;                 
+    var results= document.getElementById("results7").value;     
+    var attached= document.getElementById("attached7").value;     
+    var ipa= document.getElementById("ipa7").value;     
+    var adda = document.getElementById("adda7").value;                 
+    var reacha = document.getElementById("reacha7").value;
+    var ahand= document.getElementById("ahand7").value;    
+    var errsa= document.getElementById("errsa7").value;                 
+    var addz= document.getElementById("addz7").value;     
+    var ipz= document.getElementById("ipz7").value;     
+    var reachz= document.getElementById("reachz7").value;     
+    var zhand = document.getElementById("zhand7").value;                 
+    var zerr = document.getElementById("zerr7").value;
+    var over= document.getElementById("over7").value;    
+    var util= document.getElementById("util7").value;                 
+    var mile= document.getElementById("mile7").value;     
+    var lmcid= document.getElementById("lmcid7").value;
+    document.querySelector("output").innerHTML = "Caller Name: " + name7 + "<br>"  + "Company: " + company7 + "<br>" + "Contact Number: " + number7 + "<br>" + "Customer Ticket: " + custTkt7 + "<br>" + "Brief description: " + desc7 + "<br>" + "What time did the issue start? " + times + "<br>" + "Spectrum Circuit ID: " + cid + "<br>" + "Amount of latency / loss: " + loss + "<br>" + "How was this loss tested? " + how + "<br>" + "Has the customer sent their results? " + results + "<br>" + "Are the results attached to the ticket? " + attached + "<br>" + "A side address: " + adda + "<br>"+"A side IP address: " + ipa + "<br>" + "Can you access the A side edge? " + reacha + "<br>" + "Handoff port up/up? " + ahand + "<br>" + "Are there any errors on the A side? " + errsa + "<br>" + "Z side address: " + addz + "<br>" + "Z side IP address: " + ipz + "<br>" + "Can you access the Z side gear? " + reachz + "<br>" + "Handoff port up/up? " + zhand + "<br>" + "Are there any errors on the Z side? " + zerr + "<br>" + "Do Sevone/CAPC show any overutilization? " + over +  "<br>" + "What is the current utilization? " + util + "<br>" + "Is there a last mile carrier? " + mile + "<br>" + "Last mile circuit ID (if applicable): " + lmcid + "<br>"
 };
-	</script>
-	</body>
+    </script>
+    </body>
 </html>
-
