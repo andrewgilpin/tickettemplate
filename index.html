@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<body>
+<br>
+<br>
 	    <h2><a id="top" href="#1">Escalations</a> | 
     	<a href="#2">Ticket Update</a> | 
     	<a href="#3">Site Down</a> | 
@@ -8,8 +10,11 @@
     	<a href="#5">RFO Request</a> | 
    		<a href="#6">Dark Fiber Issue</a> | 
     	<a href="#7">Turn Up</a> | 
-    	<a href="#8">Slow / Degraded Circuit</a></h2><br>
-<h1 color="red">**NOTE** This page works best in Chrome.</h1><h4>--Any comments or bugs can be sent to <a href="mailto:andrew.gilpin@charter.com">andrew.gilpin@charter.com</a></h4>
+    	<a href="#8">Slow / Degraded Circuit</a> |
+		<a href="#9">Proactive Alarm</a></h2><br>
+<h1 color="red">**NOTE** This page works best in Chrome.</h1>
+<br>
+<h4>--Any comments or bugs can be sent to <a href="mailto:andrew.gilpin@charter.com">andrew.gilpin@charter.com</a></h4>
 
 
 <br>
@@ -298,6 +303,45 @@
     <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
     <button><a href="#top">^Back to top^</a></button> 
 </fieldset>
+<br>
+<br>
+<br>
+<fieldset>
+<legend id="9">Proactive Alarm:</legend>
+    <label for="name8">Called Name:</label>
+    <input type="text" id="name8" name="name8"> <br />
+    <label for="company8">Company:</label>
+    <input type="text" id="company8" name="company8"> <br />  
+    <label for="number8">Dialed Number:</label>
+    <input type="text" id="number8" name="number8"> <br />
+    <label for="custTkt8">Customer Ticket:</label>
+    <input type="text" id="custTkt8" name="custTkt8"> <br />
+    <label for="power8">Has power been verified?</label>
+    <input type="text" id="power8" name="power8"> <br />
+    <label for="site8">Multiple Alarms in the same Area?</label>
+    <input type="text" id="site8" name="site3"> <br />
+    <label for="cid8">Circuit ID:</label>
+    <input type="text" id="cid8" name="cid8"> <br />  
+    <label for="edge8">Can you reach the edge?</label>
+    <input type="text" id="edge8" name="edge8"> <br />
+    <label for="eip8">Edge IP?</label>
+    <input type="text" id="eip8" name="eip8"> <br />
+    <label for="lpoc8">LPOC?</label>
+    <input type="text" id="lpoc8" name="lpoc8"> <br />
+    <label for="lpocn8">LPOC Number?</label>
+    <input type="text" id="lpocn8" name="lpocn8"> <br />
+    <label for="access8">Access information?</label>
+    <input type="text" id="access8" name="access8"> <br />
+    <label for="granite8">Granite link?</label>
+    <input type="text" id="granite8" name="granite8"> <br />
+    <label for="visio8">Visio link?</label>
+    <input type="text" id="visio8" name="visio8"> <br />
+    <label for="techSum8">Technical summary:</label> <br>
+    <textarea name="techSum8" id="techSum8" rows="10" columns="80"></textarea> <br />
+    <button id="formAlarm"><a href="#top">Display Template</a></button>
+    <button><a HREF="javascript:history.go(0)">Reset Forms</a></button>
+    <button><a href="#top">^Back to top^</a></button> 
+</fieldset>
 
 <script>             
     document.getElementById("formEscalate").onclick = escalation;
@@ -308,6 +352,7 @@
     document.getElementById("formDark").onclick = dark;
     document.getElementById("formTurnup").onclick = turnup;
     document.getElementById("formSlow").onclick = slow;
+	document.getElementById("formAlarm").onclick = alarm;
         function escalation(event) {
                      event.preventDefault();    
     var name= document.getElementById("name").value;    
@@ -458,6 +503,29 @@ function slow(event) {
     var lmcid= document.getElementById("lmcid7").value;
     document.querySelector("output").innerHTML = "Caller Name: " + name7 + "<br>"  + "Company: " + company7 + "<br>" + "Contact Number: " + number7 + "<br>" + "Customer Ticket: " + custTkt7 + "<br>" + "Brief description: " + desc7 + "<br>" + "What time did the issue start? " + times + "<br>" + "Spectrum Circuit ID: " + cid + "<br>" + "Amount of latency / loss: " + loss + "<br>" + "How was this loss tested? " + how + "<br>" + "Has the customer sent their results? " + results + "<br>" + "Are the results attached to the ticket? " + attached + "<br>" + "A side address: " + adda + "<br>"+"A side IP address: " + ipa + "<br>" + "Can you access the A side edge? " + reacha + "<br>" + "Handoff port up/up? " + ahand + "<br>" + "Are there any errors on the A side? " + errsa + "<br>" + "Z side address: " + addz + "<br>" + "Z side IP address: " + ipz + "<br>" + "Can you access the Z side gear? " + reachz + "<br>" + "Handoff port up/up? " + zhand + "<br>" + "Are there any errors on the Z side? " + zerr + "<br>" + "Do Sevone/CAPC show any overutilization? " + over +  "<br>" + "What is the current utilization? " + util + "<br>" + "Is there a last mile carrier? " + mile + "<br>" + "Last mile circuit ID (if applicable): " + lmcid + "<br>"
 };
+function alarm(event) {
+                     event.preventDefault();    
+    var name8= document.getElementById("name8").value;    
+    var company8= document.getElementById("company8").value;                 
+    var number8= document.getElementById("number8").value;     
+    var custTkt8= document.getElementById("custTkt8").value;          
+    var power = document.getElementById("power8").value;                 
+    var site = document.getElementById("site8").value;     
+    var cid = document.getElementById("cid8").value;
+    var edge = document.getElementById("edge8").value;
+    var eip = document.getElementById("eip8").value;
+    var lpoc = document.getElementById("lpoc8").value;
+    var lpocn = document.getElementById("lpocn8").value;
+    var access = document.getElementById("access8").value;
+    var granite = document.getElementById("granite8").value;
+    var visio = document.getElementById("visio8").value;
+    var techSum = document.getElementById("techSum8").value;
+    document.querySelector("output").innerHTML = "Called: " + name8 + "<br>"  + "Company: " + company8 + "<br>" + "Contact Number: " + number8 + "<br>" + 
+"Customer Ticket: " + custTkt8 + "<br>" +  "Has power been verified? " + power + "<br>" + "Multiple alarms in the same area? " + site + "<br>" + "Circuit ID: " +
+ cid + "<br>" + "Can you reach the edge? " + edge + "<br>" + "Edge IP? " + eip + "<br>" +
+ "LPOC? " + lpoc + "<br>" + "LPOC Number? " + lpocn + "<br>" + "Access information? " + access + "<br>" + "Granite link? "
++ granite + "<br>" + "Visio link? " + visio + "<br>" + "Technical summary: " + techSum
+        };
     </script>
     </body>
 </html>
